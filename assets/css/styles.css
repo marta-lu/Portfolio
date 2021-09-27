@@ -1,0 +1,277 @@
+* { margin: 0; padding: 0; box-sizing: border-box;}
+
+
+body {
+    font-size: 18px;
+    font-family: Arimo, sans-serif;
+    color: #1a1a1a;
+    }
+
+.navbar {
+     height: 90px;
+     }
+
+
+
+/* section-1 */
+.presentation{
+     margin-top: 60px;
+     }
+
+.presentation-one{
+    padding: 90px;
+    font-family: Nunito, sans-serif ;
+    color: #1a1a1a;
+    }
+
+.presentation-one h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    }
+
+.presentation-one p{
+    font-size: 25px;
+    letter-spacing: 2px;
+    }
+
+.mail{
+    top: -30px;
+    padding-bottom: 190px;
+     }
+
+.send:hover{
+    transform: rotate(2deg)
+    }
+/* section-1 */
+
+
+
+/* section-2 */
+.project {
+     padding-bottom: 190px;
+     }
+
+.card{
+     margin: 3px;
+     }
+
+.card:hover {
+     -webkit-transform: scale3d(1.02, 1.02, 1.02);
+     transform: scale3d(1.02);
+     }
+/* section-2 */
+
+
+
+/* section-3 */
+.about{
+     padding: 20px;
+     margin-bottom: 40px;
+     top: 190px;
+     }
+
+.about p {
+    font-size: 25px;
+    padding-bottom: 20px;
+    font-family: Arimo, sans-serif;
+    }
+
+.wrapper a{
+    display: block;
+    height: 37px;
+    line-height: 37px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    background-color: #04756F;
+    letter-spacing: 3px;
+    text-align: center;
+    transition: all .40s;
+    border-radius: 15px;
+    font-family: Arimo, sans-serif;
+    }
+
+.wrapper a span{
+    position: relative;
+    z-index: 2;
+    }
+
+
+.wrapper a:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 37px;
+    background: #FF8C00;
+    transition: all .40s;
+    border-radius: 15px;
+    font-family: Arimo, sans-serif;
+    }
+
+.wrapper a:hover{
+    color: #1a1a1a;
+    text-decoration: line-through;
+    }
+
+.wrapper a:hover:after{
+    width: 100%;
+    }
+
+.foto{
+    width: 100%;
+    object-fit: contain;
+    padding-top: 50px;
+    }
+
+
+
+.skill{
+     top: -90px;
+     margin-bottom: 40px;
+     }
+
+.ai:hover{
+     transform: rotate(2deg)
+     }
+
+.ps:hover{
+      transform: rotate(2deg)
+      }
+
+.id:hover{
+      transform: rotate(2deg)
+      }
+
+.ht-cs:hover{
+      transform: rotate(2deg)
+      }
+
+
+/* section-3 */
+
+
+
+/* section-4 */
+footer{
+     width: 100%;
+     left: 0;
+     margin-bottom: 70px;
+     margin-top: 260px;
+     color: #1a1a1a;
+     font-family: Arimo, sans-serif;
+     }
+
+footer p{
+      font-size:14px;
+      margin-bottom:20px;
+      }
+
+.curriculum{
+     padding-top:10px;
+     }
+
+.info{
+     padding-top: 90px;
+     }
+
+.info a {
+     color: #1a1a1a;
+     }
+
+.info a:hover{
+     text-decoration: line-through;
+     color: #1a1a1a;
+    }
+
+.home {
+     top:90px;
+     }
+
+/* section-4 */
+
+
+
+
+
+
+
+  /* Tablet Styles */
+@media only screen and (min-width: 768px) {
+
+.presentation{
+      margin-top: 130px;
+      }
+
+.presentation-one{
+      text-align: left;
+      }
+
+.presentation-one h1{
+      font-size: 55px;
+      }
+
+.presentation-one p{
+      font-size: 45px;
+      }
+
+.about h1{
+    font-size: 65px;
+    text-align: left;
+    }
+
+.about p {
+    text-align: left;
+    }
+
+.foto{
+    margin-top: -280px;
+    width: 95%;
+
+    }
+
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 992px) {
+
+.presentation{
+     margin-top: 140px;
+     }
+
+.presentation-one h1{
+     font-size: 70px;
+     }
+
+.presentation-one p{
+     font-size: 60px;
+     }
+
+.project h1{
+     font-size: 75px;
+     text-align: left;
+     }
+
+.about h1{
+     margin-top: 190px;
+     }
+
+.foto {
+     margin-top:-470px;
+     margin-right: 2px;
+     }
+
+.bevifacile{
+     margin-top:-260px;
+     }
+
+.wrapper{
+    top:-20px;
+    }
+
+.secondtext{
+    margin-bottom: -15px;
+     }
+
+}
